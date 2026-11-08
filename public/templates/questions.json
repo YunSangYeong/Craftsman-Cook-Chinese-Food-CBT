@@ -1,0 +1,25 @@
+[
+  {
+    "id": "IMPORT-EXAMPLE-001",
+    "subject": "중식 재료관리, 음식조리 및 위생관리",
+    "topic": "교차오염",
+    "question": "식재료를 손질하기 전 손을 씻는 목적은?",
+    "choices": [
+      "오염 전파를 줄인다",
+      "모든 영양소를 제거한다",
+      "손을 가열한다",
+      "식품을 동결한다"
+    ],
+    "answer": 1,
+    "explanation": "손 씻기는 손의 오염을 줄여 식품이나 기구로 오염이 옮겨가는 위험을 낮춘다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Craftsman-Cook-Chinese-Food-CBT",
+    "verificationStatus": "pending",
+    "reviewNote": "양식 예제: 이용 조건과 정답을 확인 후 승인",
+    "version": "main",
+    "rights": "자체 제작 문항, CC BY 4.0; 저작자 표시: 중식조리기능사 CBT 프로젝트"
+  }
+]

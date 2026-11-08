@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "standard": {
+    "name": "cbt-site-standard",
+    "version": "1.4.0",
+    "referenceRepository": "YunSangYeong/electrician-cbt",
+    "referenceCommit": "b9a682ccff1b460334b78d5bfad9375b7ec4fbb6"
+  },
+  "qualification": {
+    "name": "중식조리기능사",
+    "slug": "chinese-cook",
+    "officialIssuer": "한국산업인력공단 (원문 확인 대기)",
+    "rulesVerificationStatus": "pending",
+    "officialSources": [],
+    "verifiedAt": null
+  },
+  "exam": {
+    "questionCount": 60,
+    "durationMinutes": 60,
+    "choiceCount": 4,
+    "subjects": [
+      "중식 재료관리, 음식조리 및 위생관리"
+    ],
+    "selectionPolicy": "학습용 잠정 설정; 통합 60문항, family 우선 고유 추출. 공식 분포 재현 아님",
+    "scoring": {
+      "maxScore": 100,
+      "passScore": 60,
+      "hasSubjectCutoff": false,
+      "subjectCutoffs": [],
+      "unansweredPolicy": "오답"
+    }
+  },
+  "questionBank": {
+    "defaultBankId": "main",
+    "targetReviewedCount": 1000,
+    "importedDefaultStatus": "pending",
+    "types": [
+      "past",
+      "reconstructed",
+      "original"
+    ],
+    "allowNumericVariants": true,
+    "reportVariantFamiliesAndCounts": true,
+    "actualReviewedCount": 1000,
+    "conceptCount": 60,
+    "numericVariantCount": 940,
+    "numericFamilyCount": 10,
+    "reviewScope": "내부 검수. 공식 기준 대조·외부 전문가 검수 미완료"
+  },
+  "ui": {
+    "locale": "ko-KR",
+    "showStudyCriteriaSelector": false,
+    "showBankYearRange": false,
+    "nextQuestionShortcut": "Space",
+    "shortcutModes": [
+      "exam",
+      "practice"
+    ],
+    "requireAnswerBeforeGlobalShortcut": true,
+    "autoSubmitLastQuestionOnSpace": false,
+    "officialBranding": false,
+    "showTopDisclaimerBanner": false,
+    "disclosureLocations": [
+      "footer-or-sidebar",
+      "question-bank-or-source-details",
+      "documentation"
+    ],
+    "showActionableStorageErrors": true,
+    "mobileMenuScrollable": true,
+    "mobileMenuSmallHeightRegressionRequired": true,
+    "mobileMenuTouchScrollVerificationRequired": true
+  },
+  "storage": {
+    "namespace": "Craftsman-Cook-Chinese-Food-CBT:v1",
+    "schemaVersion": 1,
+    "maxAttempts": 5000,
+    "maxExamResults": 30
+  },
+  "deployment": {
+    "provider": "github-pages",
+    "repository": "YunSangYeong/Craftsman-Cook-Chinese-Food-CBT",
+    "branch": "main",
+    "basePath": "/Craftsman-Cook-Chinese-Food-CBT/",
+    "publicUrl": "https://YunSangYeong.github.io/Craftsman-Cook-Chinese-Food-CBT/",
+    "blogIframe": true,
+    "executedBy": "agent-when-authorized",
+    "trigger": "push-main-after-validation",
+    "automaticDeploymentOnPush": true,
+    "agentMayExecuteDeployment": true,
+    "requiresUserDeploymentRequest": true,
+    "maxDeploymentAttempts": 1,
+    "stopOnFirstBlock": true,
+    "userRole": "initial-settings-or-required-approval-only",
+    "explicitUserRestrictionsTakePrecedence": true,
+    "actualStatus": "blocked-preflight-api-forbidden"
+  }
+}
